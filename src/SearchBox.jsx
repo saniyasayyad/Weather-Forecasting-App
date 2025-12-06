@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> bfa1c077c0622a92f3682dbaf0c3efa4714b5db3
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import "./SearchBox.css";
@@ -49,7 +53,11 @@ export default function SearchBox({updateInfo}) {
        updateInfo(Newinfo);
     } catch (err) {
         seterror(true);
+<<<<<<< HEAD
     }setCity(""); // ✅ Reset input field
+=======
+    }setCity(""); 
+>>>>>>> bfa1c077c0622a92f3682dbaf0c3efa4714b5db3
        } 
 
 
